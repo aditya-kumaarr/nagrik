@@ -1,0 +1,8 @@
+.git
+node_modules
+.next
+civic-pulse/
+civic-pulse.zip
+.data
+.env*
+.vercel

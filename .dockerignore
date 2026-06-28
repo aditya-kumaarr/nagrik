@@ -1,0 +1,11 @@
+node_modules
+.next
+.git
+civic-pulse
+civic-pulse.zip
+.data
+.env*
+.vercel
+.vercelignore
+*.log
+npm-debug.log*
