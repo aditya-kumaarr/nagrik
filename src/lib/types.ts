@@ -1,4 +1,4 @@
-// Core domain types for CivicPulse
+// Core domain types for Nagrik
 
 export type IssueStatus =
   | "reported"

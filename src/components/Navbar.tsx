@@ -32,7 +32,7 @@ export function Navbar() {
               <MapPinned className="h-5 w-5" />
             </div>
             <span className="text-lg font-bold tracking-tight" style={{ color: "var(--text)" }}>
-              Civic<span style={{ color: "var(--accent)" }}>Pulse</span>
+              Nag<span style={{ color: "var(--accent)" }}>rik</span>
             </span>
           </Link>
 

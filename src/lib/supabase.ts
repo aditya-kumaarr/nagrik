@@ -3,7 +3,7 @@ import { createClient, type SupabaseClient } from "@supabase/supabase-js";
 /**
  * Server-only Supabase client.
  *
- * All CivicPulse data access happens server-side (API routes + server
+ * All Nagrik data access happens server-side (API routes + server
  * components), so we use the service-role key. It bypasses RLS and must NEVER
  * be exposed to the browser — keep it in SUPABASE_SERVICE_ROLE_KEY (no
  * NEXT_PUBLIC_ prefix), so Next never bundles it client-side.

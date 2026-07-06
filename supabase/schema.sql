@@ -1,4 +1,4 @@
--- CivicPulse — Supabase schema
+-- Nagrik — Supabase schema
 -- Run this in the Supabase SQL editor (Dashboard → SQL → New query → paste → Run).
 -- All app access is server-side via the service-role key, which bypasses RLS,
 -- so we enable RLS (locking out the public anon key) but add no policies.

@@ -111,7 +111,7 @@ async function categorizeWithLLM(
   cfg: ProviderConfig
 ): Promise<AICategorization> {
   const system = [
-    "You are CivicPulse, an AI that categorises photos of neighbourhood problems.",
+    "You are Nagrik, an AI that categorises photos of neighbourhood problems.",
     "Look at the image and return JSON ONLY with these fields:",
     "{ category_id, severity (1-5 integer), summary (one sentence), suggested_title (short), confidence (0-1) }",
     "Pick category_id from this list:\n" + catalogText(),

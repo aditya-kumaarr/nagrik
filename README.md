@@ -1,10 +1,10 @@
 <div align="center">
 
-# 🛰️ CivicPulse
+# 🛰️ Nagrik
 
 ### Snap a photo. AI maps the problem. Your community fixes it.
 
-CivicPulse turns a single photo into an actionable, geolocated, community‑verified civic complaint — AI categorises it, scores its severity, routes it to the right department, and drops it on a live map.
+Nagrik turns a single photo into an actionable, geolocated, community‑verified civic complaint — AI categorises it, scores its severity, routes it to the right department, and drops it on a live map.
 
 [![Next.js](https://img.shields.io/badge/Next.js%2016-000000?logo=next.js&logoColor=white)](https://nextjs.org)
 [![React](https://img.shields.io/badge/React%2019-149ECA?logo=react&logoColor=white)](https://react.dev)
@@ -21,7 +21,7 @@ CivicPulse turns a single photo into an actionable, geolocated, community‑veri
 
 ## 📸 What it recognises from a photo
 
-CivicPulse's vision model identifies civic issues like these and assigns each a category, department and severity:
+Nagrik's vision model identifies civic issues like these and assigns each a category, department and severity:
 
 <table>
   <tr>
@@ -44,7 +44,7 @@ CivicPulse's vision model identifies civic issues like these and assigns each a 
 
 ## 🧭 Why
 
-Most neighbourhood problems never get fixed because **reporting them is painful** — which department owns it? how serious is it? where exactly? has someone already reported it? People give up, and the pothole stays. CivicPulse collapses the whole process into **one action: take a photo.** Everything else — triage, routing, verification, tracking — is automated, turning a stream of complaints into transparent, measurable accountability.
+Most neighbourhood problems never get fixed because **reporting them is painful** — which department owns it? how serious is it? where exactly? has someone already reported it? People give up, and the pothole stays. Nagrik collapses the whole process into **one action: take a photo.** Everything else — triage, routing, verification, tracking — is automated, turning a stream of complaints into transparent, measurable accountability.
 
 ## ✨ Features
 
@@ -79,8 +79,8 @@ A single data‑access layer (`src/lib/store.ts`) auto‑selects the **Supabase*
 ## 🚀 Getting started
 
 ```bash
-git clone https://github.com/aditya-kumaarr/civic-pulse.git
-cd civic-pulse
+git clone https://github.com/aditya-kumaarr/nagrik.git
+cd nagrik
 npm install
 
 # optional: enable real AI + shared backend (otherwise it runs fully on mock + local store)
@@ -104,7 +104,7 @@ Secrets are injected as Cloud Run **environment variables** — never committed 
 ## 🔗 Links
 
 - **Live app:** https://civic-pulse-mlk53ngtxq-el.a.run.app
-- **Source:** https://github.com/aditya-kumaarr/civic-pulse
+- **Source:** https://github.com/aditya-kumaarr/nagrik
 
 ---
 

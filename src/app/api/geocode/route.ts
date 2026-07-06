@@ -13,7 +13,7 @@ export async function GET(req: NextRequest) {
   try {
     const res = await fetch(
       `https://nominatim.openstreetmap.org/search?q=${encodeURIComponent(q)}&format=json&limit=1`,
-      { headers: { "User-Agent": "CivicPulse/1.0 (civic issue reporter demo)" } }
+      { headers: { "User-Agent": "Nagrik/1.0 (civic issue reporter demo)" } }
     );
     const data = await res.json();
     if (!Array.isArray(data) || data.length === 0) {

@@ -3,7 +3,7 @@ import { IssuesList } from "@/components/IssuesList";
 
 export const dynamic = "force-dynamic";
 
-export const metadata = { title: "Issues · CivicPulse" };
+export const metadata = { title: "Issues · Nagrik" };
 
 export default async function IssuesPage() {
   const issues = await store.listIssues();

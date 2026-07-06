@@ -9,15 +9,15 @@ const geistSans = Geist({
 });
 
 export const metadata: Metadata = {
-  title: "CivicPulse",
+  title: "Nagrik",
   description:
     "Snap a photo of a local problem and AI instantly categorises, geolocates and prioritises it. Community-verified, transparently tracked.",
-  applicationName: "CivicPulse",
+  applicationName: "Nagrik",
   manifest: "/manifest.webmanifest",
   appleWebApp: {
     capable: true,
     statusBarStyle: "default",
-    title: "CivicPulse",
+    title: "Nagrik",
   },
 };
 

@@ -274,7 +274,7 @@ export function MapView({
                   No reports in your area yet
                 </div>
                 <p className="mt-1 text-xs" style={{ color: "var(--text-tertiary)" }}>
-                  CivicPulse is just getting started here. Be the first to put your
+                  Nagrik is just getting started here. Be the first to put your
                   neighbourhood on the map.
                 </p>
                 <Link
