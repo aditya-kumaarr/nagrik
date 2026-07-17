@@ -27,3 +27,13 @@ Every email draft MUST follow these rules so that separation can never happen:
 6. **Judge rendering only from a SENT message opened in the Inbox** (or fetched via the
    Gmail API). The compose/draft editor misrenders valid HTML and must never be used as
    evidence that the structure is broken.
+7. **Referral emails always include a "Referral Details" block.** Any email asking someone
+   to refer Aditya (as opposed to a direct application) must have a clearly labeled,
+   bordered block placed after the opening paragraph with exactly these three lines so the
+   referrer can copy them straight into their company's referral portal:
+   `Name: Aditya Kumar`, `Phone: 8809031073`, `Email: <referral email for this ask>`.
+   Default the referral email to `adityaakumaarr@gmail.com` unless Aditya specifies a
+   different one to use for that particular round (e.g. to avoid an "already applied"
+   duplicate-detection conflict) — the footer's contact email stays
+   `adityaakumaarr@gmail.com` regardless, since that's for real correspondence, not the
+   portal entry.
